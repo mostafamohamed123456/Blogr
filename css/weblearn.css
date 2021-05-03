@@ -161,29 +161,6 @@ body{
     font-family: Arial, sans-serif;
     font-weight: bold;
 }
-@media (min-width:500px) AND (max-width:990px){
-    .first-section nav{
-        margin: 0 50px;
-    }
-    .first-section nav img[src="img/new imgs/logo.svg"]{
-        width: 87px;
-        height: auto;
-        margin-bottom: -25px;
-        margin-right: 50px;
-    }
-    .first-section nav ul li, .first-section nav div a{
-        display:none
-    }
-    .first-section nav div .responsive-btn{
-        display: inline-block;
-    }
-    .first-section h1{
-        width: 74%;
-    }
-    .first-section p{
-        width: 60%;
-    }
-}
 .first-section .dropdown-box{
     background: #FFF;
     padding: 10px;
@@ -254,6 +231,61 @@ body{
     color:#ff3c00c0;
     padding: 13px 20px;
 }
+@media (min-width:320px) AND (max-width:500px){
+    .first-section nav{
+        margin: 0 50px;
+    }
+    .first-section nav img[src="img/new imgs/logo.svg"]{
+        width: 87px;
+        height: auto;
+        margin-bottom: -25px;
+        margin-right: 50px;
+    }
+    .first-section nav ul li, .first-section nav div a{
+        display:none
+    }
+    .first-section nav div .responsive-btn{
+        display: inline-block;
+    }
+    .first-section h1{
+        width: 100%;
+        margin: 75px auto 0;
+    }
+    .first-section p{
+        width: 60%;
+    }
+    .first-section .responsive-nav .inside-dropdown-box{
+        width: 209px;
+        min-height: 183px;
+    }
+    .first-section .responsive-nav .reg-container{
+        margin: 0px auto;
+        width: 209px;
+    }
+}
+@media (min-width:500px) AND (max-width:990px){
+    .first-section nav{
+        margin: 0 50px;
+    }
+    .first-section nav img[src="img/new imgs/logo.svg"]{
+        width: 87px;
+        height: auto;
+        margin-bottom: -25px;
+        margin-right: 50px;
+    }
+    .first-section nav ul li, .first-section nav div a{
+        display:none
+    }
+    .first-section nav div .responsive-btn{
+        display: inline-block;
+    }
+    .first-section h1{
+        width: 74%;
+    }
+    .first-section p{
+        width: 60%;
+    }
+}
  /* End styling first section */
 /* start styling sec section */
 .sec-section h2{
@@ -305,6 +337,48 @@ body{
     color: #5856569c;
     line-height: 27px;
     font-family: Tahoma, sans-serif;
+}
+@media (min-width:320px) AND (max-width:500px){
+    .sec-section .container{
+        display:block
+    }
+    .sec-section .container .right-container{
+        text-align: center;
+        position: inherit;
+    }
+    .sec-section .container img{
+        width: 300px;
+        height: auto;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    .sec-section .container .left-container{
+        margin: 0 0;
+        text-align: center;
+        padding-top:40px;
+    }
+    .sec-section .container .left-container .top-artical h3{
+        width: 55%;
+        font-size: 22px;
+        font-weight: 200;
+        margin: 0 auto 26px;
+    }
+    .sec-section .container .left-container .top-artical p{
+        width: 63%;
+        text-align: center;
+        margin: 8px auto;
+    }
+    .sec-section .container .left-container .bottom-artical h3{
+        width: 55%;
+        font-size: 22px;
+        font-weight: 200;
+        margin: 0 auto 26px;
+    }
+    .sec-section .container .left-container .bottom-artical p{
+        width: 63%;
+        text-align: center;
+        margin: 8px auto 100px;
+    }
 }
 @media (min-width:500px) AND (max-width:990px){
     .sec-section .container{
@@ -387,6 +461,35 @@ body{
     margin-bottom: 15px;
     line-height: 28px;
 }
+@media (min-width:320px) AND (max-width:500px){
+    .third-section{
+        background-position:-104px -253px;
+    }
+    .third-section .container img[src='img/new imgs/illustration-phones.svg'] {
+        margin-top: -150px;
+        margin-left: 0px;
+        height: 19%;
+        width: 300px;
+        margin-right: 0px;
+    }
+    .third-section .container{
+        display: block;
+    }
+    .third-section .container .right-atrical{
+        margin: 0;
+        padding: 0 ;
+        text-align: center;
+    }
+    .third-section .container .right-atrical h3{
+        font-size: 22px;
+        width: 50%;
+        margin: 0 auto 10px;
+    }
+    .third-section .container .right-atrical p{
+        width: 80%;
+        margin: 0 auto;
+    }
+}
 @media (min-width:500px) AND (max-width:990px){
     .third-section{
         background-position:-104px -253px;
@@ -461,6 +564,43 @@ body{
     line-height: 27px;
     font-family: Tahoma, sans-serif;
     color:#5856569c ;
+}
+@media (min-width:320px) AND (max-width:500px){
+    .forth-section .container{
+        display: block;
+    }
+    .forth-section .inside-container{
+        position: inherit;
+        left: 0;
+        text-align: center;
+    }
+    .forth-section .inside-container img{
+        width: 300px;
+        height: auto;
+    }
+    .forth-section .right-container{
+        padding-top: 115px;
+        text-align: center;
+        margin-left: 0;
+    }
+    .forth-section .right-container .top-artical h3{
+        font-size: 30px;
+        font-weight: 200;
+    }
+    .forth-section .right-container .top-artical p{
+        width: 67%;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .forth-section .right-container .bottom-artical h3{
+        font-size: 30px;
+        font-weight: 200;
+    }
+    .forth-section .right-container .bottom-artical p{
+        width: 67%;
+        text-align: center;
+        margin: 0 auto 200px;
+    }
 }
 @media (min-width:500px) AND (max-width:990px){
     .forth-section .container{
@@ -572,6 +712,25 @@ body{
 }
 .fifth-section .first-row .third .third-inside a:hover{
     text-decoration: underline;
+}
+@media (min-width:320px) AND (max-width:500px){
+    .fifth-section{
+        height: 862px;
+        padding-top: 46px;
+    }
+    .fifth-section .first-row img{
+        margin-bottom:80px
+    }
+    .fifth-section .first-row{
+        display: block;
+        text-align: center;
+    }
+    .fifth-section .first-row .first .first-inside{
+        margin-bottom:30px;
+    }
+    .fifth-section .first-row .sec .sec-inside{
+        margin-bottom:30px;
+    }
 }
 @media (min-width:500px) AND (max-width:990px){
     .fifth-section{
